@@ -1,0 +1,41 @@
+body {
+  background: #13173A;
+  padding:2rem;
+}
+
+header {
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding:2rem;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  text-transform:uppercase;
+  width:65%;
+  margin:auto;
+}
+
+.title {
+  color:white;
+}
+
+.score {
+  background:white;
+  padding:1rem 2rem 1rem 2rem;
+  border-radius: 0.75rem;
+}
+
+footer {
+  position:absolute;
+  bottom:2rem;
+  right:2rem;
+}
+
+.rules-btn {
+  border: 0.1rem solid white;
+  background:none;
+  color:white;
+  text-transform: uppercase;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
